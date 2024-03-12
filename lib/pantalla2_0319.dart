@@ -9,17 +9,17 @@ class Pantalla2_0319 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Card p2 Beltrán 0319"),
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.indigo,
       ),
       body: Center(
         child: Container(
-          color: Colors.amberAccent,
+          color: Colors.indigo,
           width: double.infinity,
           height: 300,
           child: Card(
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-            color: Colors.orangeAccent,
+            color: Colors.blueAccent,
             margin: EdgeInsets.all(32),
             child: Padding(
               padding: EdgeInsets.all(16),
